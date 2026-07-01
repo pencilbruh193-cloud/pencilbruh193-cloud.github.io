@@ -1,18 +1,70 @@
-<style>
-  body {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VLZH9lrle2W7Ye2vYhjyl5zXWy_oY7inJh_1447lfA&s=10'); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed; 
-  }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unblocked Games | Aiden Nieh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section id="intro-screen" class="screen active-screen">
+      <div class="hero-card">
+        <div class="hero-badge">Unblocked Games</div>
+        <h1>Welcome to Aiden Nieh&apos;s Game Portal</h1>
+        <p class="subtitle">Play safe, play fast, and enjoy three arcade games built for a quick school break.</p>
+        <button id="playBtn" class="btn btn-large">Play</button>
+        <p class="small-copy">Designed by Aiden Nieh for an unblocked games website.</p>
+      </div>
+    </section>
 
-<p style="color: white; font-size: 54px; text-align: center; margin-top: 0;">
-  Unblocked Games
-</p>
+    <section id="game-menu" class="screen">
+      <div class="container">
+        <div class="menu-header">
+          <h1>Choose a Game</h1>
+          <p class="subtitle">Select one of the arcade challenges below and hit start.</p>
+        </div>
+        <div class="games-grid">
+          <article class="game-card">
+            <h2>Paper IO Battle Royale</h2>
+            <p>Drive your trail, survive the arena, and outlast the bots in this simplified royale.</p>
+            <button class="btn game-select" data-game="paperio">Play Paper IO</button>
+          </article>
+          <article class="game-card">
+            <h2>Dodge Arena</h2>
+            <p>Move left and right to avoid falling obstacles while your score climbs.</p>
+            <button class="btn game-select" data-game="dodge">Play Dodge Arena</button>
+          </article>
+          <article class="game-card">
+            <h2>Click Survival</h2>
+            <p>Click the moving target as many times as you can before time runs out.</p>
+            <button class="btn game-select" data-game="clicker">Play Click Survival</button>
+          </article>
+        </div>
+        <button id="menuBackBtn" class="back-btn">Back to Intro</button>
+      </div>
+    </section>
+
+    <section id="game-screen" class="screen">
+      <div class="container">
+        <button id="backBtn" class="back-btn">Back to Games</button>
+        <div class="game-container">
+          <h2 id="gameTitle">Game Title</h2>
+          <p id="gameDescription" class="game-info">Game description appears here.</p>
+          <canvas id="gameCanvas" width="760" height="420"></canvas>
+          <p id="gameStats" class="game-info"></p>
+          <div class="button-row">
+            <button id="startGameBtn" class="btn">Start Game</button>
+            <button id="resetGameBtn" class="btn btn-secondary">Reset</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
     
-<p style="color: white; font-size: 28px; text-align: center; margin-top: -50;">
-  An Aiden Nieh Website
-</p>
-
