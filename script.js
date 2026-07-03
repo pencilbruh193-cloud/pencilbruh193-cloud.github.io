@@ -1,9 +1,9 @@
 const buttons = document.querySelectorAll('.game-btn');
 
 const links = {
-  paperio: 'https://paperiogame.io/',
-  dodge: 'https://dodgearena.com/',
-  clicker: 'https://clicksurvival.com/'
+  ShreckEscape: 'https://sites.google.com/view/drive-u-7-home/shrek-escape-from-the-swamp',
+  TemuGeoDash: 'https://sites.google.com/view/drive-u-7-home/new-games/level-67',
+  UltraKill: 'https://sites.google.com/view/drive-u-7-home/ultrapin'
 };
 
 buttons.forEach(btn => {
