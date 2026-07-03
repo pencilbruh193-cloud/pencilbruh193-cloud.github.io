@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll('.game-btn');
 
 const links = {
-  ShrekEscape: 'https://sites.google.com/view/drive-u-7-home/shrek-escape-from-the-swamp',
+  ShreckEscape: 'https://sites.google.com/view/drive-u-7-home/shrek-escape-from-the-swamp',
   TemuGeoDash: 'https://sites.google.com/view/drive-u-7-home/new-games/level-67',
   UltraKill: 'https://sites.google.com/view/drive-u-7-home/ultrapin'
 };
